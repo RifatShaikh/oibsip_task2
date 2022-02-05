@@ -15,6 +15,7 @@ html{
     display: flex;
     flex-direction: row;
     justify-content: center;
+    flex-wrap: wrap;
     align-items: center;
 }
 .navbar li{
@@ -408,5 +409,31 @@ footer a{
     color: oldlace;
     text-decoration: none;
     font-size: 20px;
+}
+@media screen and (max-width:420px) {
+    .contact{
+        width: 300px;
+        font-size: 8px;
+    }
+    .edu{
+        width: 300px;
+        font-size: 8px;
+    }
+    .project{
+        width: 300px;
+        font-size: 8px;
+    }
+    .cert{
+        width: 300px;
+        font-size: 8px;
+    }
+    .skills{
+        width: 300px;
+        font-size: 8px;
+    }
+    .skills-bar{
+        width: 200px;
+        font-size: 8px;
+    }
 }
 
